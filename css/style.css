@@ -1,0 +1,91 @@
+
+
+
+
+
+body {
+    background-color: #DCC6C6;
+    font-family: 'Inter', sans-serif;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: #FFF8F8;
+    width: 333px;
+    height: 441px;
+    margin: auto;
+    border-radius: 30px;
+}
+
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 83px;
+    background-color: #D9D9D9;
+    border-radius: 30px 30px 0 0;
+    
+    padding: 32px;
+    justify-content: space-between;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.header div {
+    display: flex;
+    justify-content: space-between;
+    width: calc(50% - 52px);
+}
+
+.header div div  {
+    height:  calc(100% + 9px);
+    width: 100%;
+    border-bottom: 2px solid #e7676700;
+    display: flex;
+    justify-content: center;
+}
+
+.header div div:hover  {
+  cursor: pointer;
+}
+
+
+.selected-element {
+    border-bottom: 2px solid black;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: rgb(59, 62, 62);
+    margin: auto;
+    position: relative;
+    top: -26px;
+    display: block;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+.description {
+    padding: 24px;
+    padding-top: 0px;
+    position: relative;
+    top: -10px;
+}
+
+.description h1 {
+    font-size: 30px;
+}
+
+.description p {
+    font-size: 12px;;
+}
+
+
+.icons {
+   
+}
